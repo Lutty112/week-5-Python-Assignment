@@ -58,7 +58,7 @@ class Boat(Vehicle):
     def move(self):
         print("Sailing")
 
-vehicles = [Car(), Plane(), Bicycle()]
+vehicles = [Plane(), Bicycle(), Boat()]
 
 for v in vehicles:
     print(v.move())
